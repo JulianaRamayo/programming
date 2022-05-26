@@ -1,5 +1,5 @@
 #This program is a game where you can play to guess the number with the computer.
-import random
+import random #to generate random numbers
 
 def userGuess(x): #this function is used to guess a random number from the computer
     randomNumber = random.randint(1, x)
