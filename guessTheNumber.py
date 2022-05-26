@@ -13,7 +13,7 @@ def userGuess(x): #this function is used to guess a random number from the compu
     print("This is the right number! Well done <3") #if the user guesses the number correctly, then the round ends.
 
 def computerGuess(x): #this function is used to guess a random number from the user
-    print('''Please, think about a number...
+    print('''Please, think about a number between 1 and 30...
 And do not change it while playing this round T-T''')
     low = 1
     high = x
@@ -51,5 +51,14 @@ Who guesses in this round?
         otherRound = input("Do you want to try again? (Y/N): ").upper()
 print('''Thank you for playing this game \^o^/
 I had a lot of fun while playing with you!
-Hope to see you soon T-T
+Hope to see you soon 
+
+ ______         ______ 
+|      |       |      |
+|      | _____ |      |
+|_|  |_||     ||_|  |_|
+  |  |  |_____|  |  |  
+  |  |           |  |  
+  |__|           |__|  
+                       
 Bye, bye!! <3''')
